@@ -1,7 +1,7 @@
 ﻿const list: number[] = [15, 6, 3213, 9, 0, 12, 8464, 1, 1264, 481, 186, 1031, 194]
 
 // 1. Sort descending
-const sortedDescending: number[] = [...list].sort((a, b) => b - a)  // spread to avoid mutating original list
+const sortedDescending: number[] = [...list].sort((a, b) => b - a)
 console.log("Sorted in descending order:", sortedDescending)
 // Output: [8464, 3213, 1264, 1031, 481, 194, 186, 15, 12, 9, 6, 1, 0]
 
