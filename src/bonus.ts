@@ -13,7 +13,7 @@ const squaredNumbers: number[] = list.map((num: number) => num * num);
 console.log("Squared numbers:", squaredNumbers)
 // Output: [225, 36, 10326069, 81, 0, 144, 71639296, 1, 1598208, 231361, 34596, 1062961, 37636]
 
-// 3. Remove lowest two numbers and highest four
+// 3. Remove lowest two and highest four
 const reducedList: number[] = [...list]
     .sort((a, b) => a - b)
     .slice(2, list.length - 4)
